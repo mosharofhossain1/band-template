@@ -48,6 +48,9 @@ header {
 .header_menu ul li:hover a {
   color: black;
 }
+.miniVar {
+  display: none;
+}
 .header_icon_Area {
   font-size: 16px;
 
@@ -63,11 +66,12 @@ header {
 /* Banner section start */
 .banner_container {
   position: relative;
+  background-color: black;
 }
 .banner_container img {
   width: 100%;
   height: auto;
-  mix-blend-mode: lighten;
+  mix-blend-mode: exclusion;
 }
 .banner_desc {
   position: absolute;
@@ -78,4 +82,108 @@ header {
   text-align: center;
   font-size: 20px;
 }
+.bandItems {
+  text-align: justify;
+  padding: 10px;
+}
+.bandTitle,
+.bandSubTitle {
+  text-align: center;
+  margin: 20px 0px;
+}
+.bandPersonsNames {
+  text-align: center;
+}
+.bandPersonsNames .name {
+  margin-top: 20px;
+}
+.bandPersonsNames .name img {
+  width: 100%;
+  padding: 7px;
+  border-radius: 9px;
+}
+.bandPersonsNames .name h4 {
+  margin-bottom: 15px;
+}
 /* Banner section end */
+
+/* Tour section Style Css start */
+.tourDetailsSection {
+  background-color: black;
+  padding: 20px;
+}
+.tourSectionTiles {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.tourTitle,
+.tourSubTitle {
+  color: white;
+  margin-bottom: 20px;
+}
+.tourCalendar {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+.date_details {
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+}
+.date_details span {
+  background-color: red;
+  color: white;
+  padding: 0px 5px;
+}
+#dateDesign {
+  background-color: #ccc;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+.lastDateContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.tourTicket {
+  width: 100%;
+  padding: 10px;
+}
+
+.ticketimg {
+  width: 100%;
+}
+.ticketimg img {
+  width: 100%;
+  height: auto;
+}
+.ticketimg:hover {
+  mix-blend-mode: screen;
+}
+.countryDetails {
+  background-color: white;
+  padding: 20px;
+}
+.countryDetails h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.ticketSubTitle {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.buyBtn {
+  width: 120px;
+  height: auto;
+  background-color: black;
+  padding: 20px;
+  margin-top: 20px;
+}
+.buyBtn a {
+  color: white;
+}
+/* Tour section Style Css end */

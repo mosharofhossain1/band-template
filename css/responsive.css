@@ -6,4 +6,29 @@
   .header_icon_Area {
     display: none;
   }
+  .miniVar {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bandItems {
+    width: 100%;
+    margin: 0px auto;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  .bandPersonsNames {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  .name h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .tourTicketBuySection {
+    display: flex;
+  }
 }
