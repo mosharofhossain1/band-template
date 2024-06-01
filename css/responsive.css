@@ -31,4 +31,26 @@
   .tourTicketBuySection {
     display: flex;
   }
+  .contactSection {
+    padding: 50px 0px;
+  }
+  .contactInfos {
+    display: flex;
+    justify-content: space-around;
+  }
+  .contactleftInfo p {
+    font-size: 20px;
+  }
+  .contactTitleDesc {
+    margin-bottom: 90px;
+  }
+  .sendBtn {
+    text-align: right;
+  }
+  .sendBtn button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+  }
 }
