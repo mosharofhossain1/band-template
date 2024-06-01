@@ -1,0 +1,81 @@
+/* Customize css styel start */
+*,
+a,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Customize css styel End */
+
+/* Header section css style start */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.header_menu {
+  flex: 90%;
+}
+.header_menu ul {
+  display: flex;
+  list-style-type: none;
+}
+.header_menu ul li {
+  padding: 10px 20px;
+  margin-top: -4px;
+}
+.header_menu ul li a {
+  font-size: 20px;
+  color: white;
+  /* padding: 10px; */
+}
+.header_menu ul li:hover {
+  background-color: #ccc;
+}
+.header_menu ul li:hover a {
+  color: black;
+}
+.header_icon_Area {
+  font-size: 16px;
+
+  display: flex;
+  justify-content: end;
+  padding: 12px 12px;
+}
+.header_icon_Area:hover {
+  background-color: red;
+}
+/* Header section css style End */
+
+/* Banner section start */
+.banner_container {
+  position: relative;
+}
+.banner_container img {
+  width: 100%;
+  height: auto;
+  mix-blend-mode: lighten;
+}
+.banner_desc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+/* Banner section end */
